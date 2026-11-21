@@ -1,0 +1,34 @@
+short: "cargo-auditable / cargo-crev"
+title: "cargo-auditable と cargo-crev の文書"
+original_title: "cargo-auditable and cargo-crev documentation"
+seo_title: "cargo-auditable と cargo-crev の文書（日本語訳）"
+summary: "Rust のサプライチェーン対策のツール、cargo-auditable（実行ファイルに依存の一覧を埋め込む）と cargo-crev（コードレビューを共有する信頼の網）の文書の、非公式な日本語訳。"
+author: "cargo-auditable と cargo-crev の貢献者"
+source: "https://github.com/rust-secure-code/cargo-auditable"
+license: "MIT または Apache-2.0（cargo-crev は MPL-2.0 OR MIT OR Apache-2.0）"
+license_url: "https://github.com/rust-secure-code/cargo-auditable/blob/master/LICENSE-MIT"
+version: "cargo-auditable 8e1e4eb、cargo-crev e0e71f9（2026-11 時点）"
+translated: "2026-11-21"
+disclaimer: "rust-secure-code・crev-dev・Rust Project・Rust Foundation とは提携していません。"
+home_toc: true
+chapters:
+  - {file: "cargo-auditable/", title: "cargo-auditable"}
+  - {file: "cargo-auditable/PARSING.html", title: "cargo-auditable: 埋め込んだデータのパース"}
+  - {file: "cargo-auditable/auditable-info/", title: "auditable-info"}
+  - {file: "cargo-auditable/auditable-extract/", title: "auditable-extract"}
+  - {file: "cargo-auditable/auditable-serde/", title: "auditable-serde"}
+  - {file: "cargo-auditable/rust-audit-info/", title: "rust-audit-info"}
+  - {file: "cargo-auditable/resolverver/", title: "resolverver"}
+  - {file: "cargo-crev/", title: "cargo-crev"}
+  - {file: "cargo-crev/cargo-crev/src/doc/getting_started.html", title: "cargo-crev: 入門ガイド"}
+  - {file: "cargo-crev/cargo-crev/src/doc/trust.html", title: "cargo-crev: 信頼と信頼の網"}
+  - {file: "cargo-crev/cargo-crev/src/doc/organizations.html", title: "cargo-crev: 組織や企業で使う"}
+  - {file: "cargo-crev/cargo-crev/src/doc/advisories.html", title: "cargo-crev: アドバイザリの報告"}
+  - {file: "cargo-crev/cargo-crev/src/doc/cargo_specific.html", title: "cargo-crev: Cargo 固有の機能"}
+  - {file: "cargo-crev/cargo-crev/src/doc/tips_and_tricks.html", title: "cargo-crev: コツと小技"}
+  - {file: "cargo-crev/cargo-crev/src/doc/glossary.html", title: "cargo-crev: 用語集"}
+  - {file: "cargo-crev/cargo-crev/src/doc/compiling.html", title: "cargo-crev: ソースからビルドする"}
+  - {file: "cargo-crev/crev-lib/rc/doc/", title: "crev: プルーフリポジトリ"}
+  - {file: "cargo-crev/crev-lib/rc/doc/editing-trust.html", title: "crev: 信頼プルーフの作成"}
+  - {file: "cargo-crev/crev-lib/rc/doc/editing-package-review.html", title: "crev: パッケージレビュープルーフの作成"}
+  - {file: "cargo-crev/crev-lib/rc/doc/editing-code-review.html", title: "crev: コードレビュープルーフの作成"}

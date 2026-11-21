@@ -1,0 +1,5 @@
+# supply-chain-tools-ja
+
+> RustSecJP（非公式のコミュニティ）による、Rust の文書の非公式な日本語訳。
+
+- [cargo-auditable と cargo-crev の文書 日本語訳](https://rustsecjp.github.io/supply-chain-tools-ja/): 実行ファイルに依存の一覧を埋め込む cargo-auditable と、レビューを共有する cargo-crev の文書の日本語訳。
