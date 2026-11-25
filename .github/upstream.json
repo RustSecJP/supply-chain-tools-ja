@@ -1,1 +1,28 @@
-{n  "upstreams": [n    {n      "repo": "rust-secure-code/cargo-auditable",n      "branch": "master",n      "paths": [n        "README.md",n        "PARSING.md",n        "auditable-info/README.md",n        "auditable-extract/README.md",n        "auditable-serde/README.md",n        "rust-audit-info/README.md",n        "resolverver/README.md"n      ],n      "base": "8e1e4eb579a99622f4430b2b28e441a24fb2d74d"n    },n    {n      "repo": "crev-dev/cargo-crev",n      "branch": "main",n      "paths": [n        "cargo-crev/README.md",n        "cargo-crev/src/doc",n        "crev-lib/rc/doc"n      ],n      "base": "e0e71f9dc2938c061ae0e99554caa8928d2299f1"n    }n  ]n}
+{
+  "upstreams": [
+    {
+      "repo": "rust-secure-code/cargo-auditable",
+      "branch": "master",
+      "paths": [
+        "README.md",
+        "PARSING.md",
+        "auditable-info/README.md",
+        "auditable-extract/README.md",
+        "auditable-serde/README.md",
+        "rust-audit-info/README.md",
+        "resolverver/README.md"
+      ],
+      "base": "8e1e4eb579a99622f4430b2b28e441a24fb2d74d"
+    },
+    {
+      "repo": "crev-dev/cargo-crev",
+      "branch": "main",
+      "paths": [
+        "cargo-crev/README.md",
+        "cargo-crev/src/doc",
+        "crev-lib/rc/doc"
+      ],
+      "base": "e0e71f9dc2938c061ae0e99554caa8928d2299f1"
+    }
+  ]
+}
